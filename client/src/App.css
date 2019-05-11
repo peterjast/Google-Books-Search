@@ -1,0 +1,149 @@
+nav {
+color: #f9c411;
+background-color: rgb(124, 124, 124);
+padding: 1rem 0;
+}
+
+nav h2 {
+  display: inline;
+  margin: 0 2vw;
+  font-size: 1.25rem;
+  color: white;
+}
+
+nav a {
+  margin: 0 2vw;
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+}
+nav a:hover {
+  height: 100%;
+  font-weight: bold;
+}
+nav a:visited {
+  color: #f9c411;
+}
+
+header h1 {
+  font-size: 7vw;
+  text-align: center;
+  color: white;
+  padding: 12% 0 3%;
+  text-shadow: 5px 5px 30px black;
+}
+
+
+
+h3 {
+  font-size: 1.5rem;
+}
+
+#searchContainer, #resultsContainer {
+  color: white;
+  background-color: rgb(124, 124, 124);
+  padding: 2vw;
+  margin: 2vw;
+  font-size: 3vw;
+}
+
+form {
+  padding: 1rem 0 1.5rem;
+  position: relative;
+}
+
+label {
+  font-size: 1.25rem;
+}
+
+input {
+  margin: 1vw 0;
+  width: 98%;
+  padding: .75vw;
+  font-size: 1.25vw;
+}
+
+button {
+  border-radius: 0;
+  border-style: groove;
+  background-color: #f9c411;
+  color: white;
+  padding: .75vw;
+  font-size: 1.25vw;
+
+  font-weight: bold;
+}
+
+button:hover {
+  cursor: pointer;
+  border: none;
+}
+
+form button {
+  position: absolute;
+  right: 0;
+}
+
+button[disabled] {
+  background-color: #f9e39f;
+}
+
+#resultsContainer {
+  font-size: 1rem;
+}
+
+#resultsContainer h3 {
+  margin-bottom: 3.5vw;
+}
+
+.bookResult {
+  background-color: white;
+  color: black;
+  padding: 1.75vw;
+  font-size: 1rem;
+}
+
+.bookResult:not(:last-of-type) {
+  margin-bottom: 2vw;
+}
+
+.bookResult h4 {
+  font-size: 1.25rem;
+  margin-bottom: 1vw;
+}
+
+.bookResult .row:first-of-type {
+  margin-bottom: 1vw;
+}
+
+.bookResult img {
+  display: inline-block;
+  box-sizing: border-box;
+  max-width: 100px;
+  max-height: auto;
+  margin-right: 2vw;
+}
+
+.aboutBook {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 75%;
+  padding: 0;
+  /* margin: 1.75vw 0 0 1.75vw; */
+}
+
+.btnDiv {
+  box-sizing: border-box;
+  float: right;
+}
+
+.btnDiv button:first-of-type {
+  margin-right: 1.75vw;
+}
+
+@media screen and (min-width: 480px) {
+  .bookResult .row:nth-of-type(2) {
+    display: flex;
+    align-items: flex-start;
+  }
+}
