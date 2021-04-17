@@ -22,4 +22,4 @@ This app searches the Google Books API and allows users to save books of interes
 
 ![Image of app](/client/src/images/yessir.png)
 
-## Link to deployed app: [https://stark-oasis-61890.herokuapp.com/](https://stark-oasis-61890.herokuapp.com/)
+## Link to deployed app: [https://googlebooksearchandsave.herokuapp.com/](https://googlebooksearchandsave.herokuapp.com/)
