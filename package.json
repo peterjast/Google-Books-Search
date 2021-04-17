@@ -24,7 +24,7 @@
   },
   "homepage": "https://git.heroku.com/stark-oasis-61890.git",
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "dotenv": "^6.2.0",
     "express": "^4.17.1",
     "if-env": "^1.0.4",
